@@ -5,6 +5,8 @@
 #
 # Requires: xdotool, zenity
 #
+# Copyright (c) 2014, 2015 Mark Karpov
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -65,7 +67,7 @@ then
     # further manipulations here.
     mupdf "$1" $page &
     # We need to wait for the program's windows to appear and focus on it.
-    xdotool search --sync --class "mupdf"
+    xdotool search --sync --onlyvisible --class "mupdf"
     # Now we use xdotool to use fullscreen mode. Comment this line if you
     # don't want to use fullscreen mode automatically.
     xdotool key f
