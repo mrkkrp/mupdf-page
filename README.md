@@ -1,4 +1,4 @@
-# Script to remember page when you quite MUPDF
+# Script to remember page when you quit MUPDF
 
 This is a tiny shell script that allows MUPDF (semi-) automatically remember
 page that is opened when you close it. It does so by keeping directory
@@ -9,8 +9,8 @@ and takes care of the rest. When you quit MUPDF it asks you for page number
 to remember. You can enter page number or cancel this query altogether, so
 page number for this file will not be changed.
 
-Tip: use `P` command to find out page number (I can be different from number
-that is displayed on document's footer).
+Tip: use `P` command to find out page number (it can be different from
+number that is displayed on document's footer).
 
 ## Installation
 
