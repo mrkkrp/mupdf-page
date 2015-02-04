@@ -42,6 +42,6 @@ you open PDF files from within file manager this script will be used.
 
 ## License
 
-Copyright (c) 2014 Mark Karpov
+Copyright (c) 2014, 2015 Mark Karpov
 
 Distributed under GNU GPL, version 3.
