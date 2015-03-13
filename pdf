@@ -78,7 +78,7 @@ then
     # OK, this is the part where we ask for user's input with zenity.
     input=$(zenity --entry --title="page number" --text="page number:")
     # If user entered something and not canceled our query, we should
-    # substitute page number with this number.
+    # replace page number with this number.
     if test "$input" != ""
     then page=$input
     fi
