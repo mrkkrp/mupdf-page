@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # MUPDF Automation Script
 # Make MUPDF remember current page when you quit
