@@ -12,7 +12,7 @@ page number for this file will not be changed.
 Tip: use `P` command to find out page number (it can be different from
 number that is displayed on document's footer).
 
-## Installation
+## Recommended Installation Method
 
 Copy file `pdf` into directory that is in your `PATH` environment
 variable. I strongly recommend using of `~/bin/` directory for this sort of
@@ -23,7 +23,7 @@ it and change file mode, so you can execute it:
 
 ```
 $ cd bin
-$ chmod 755 pdf
+$ chmod +x pdf
 ```
 
 If you have never used `~/bin` directory for your custom scripts, add the
